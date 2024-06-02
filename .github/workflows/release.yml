@@ -9,8 +9,6 @@ on:
   pull_request:
     paths:
       - "setup.py"
-    branches:
-      - "main"
 
 jobs:
   build:
