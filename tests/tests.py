@@ -8,7 +8,7 @@ from pypi_cicd.pypi_cicd import add
 class TestAddFunction(unittest.TestCase):
 
     def test_add_positive_numbers(self):
-        self.assertEqual(add(1, 2), 3)
+        self.assertEqual(add(1, 2), 4)
 
     def test_add_negative_numbers(self):
         self.assertEqual(add(-1, -1), -2)
