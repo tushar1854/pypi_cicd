@@ -9,7 +9,7 @@ def read(fname):
 
 setup(
     name='pypi_cicd',
-    version='0.5',
+    version='0.6',
     long_description=read("README.md"),
     long_description_content_type='text/markdown',
     packages=find_packages(),
